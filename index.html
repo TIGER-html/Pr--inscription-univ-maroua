@@ -1,0 +1,42 @@
+Html
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Pré-inscription - Université de Maroua</title>
+</head>
+<body>
+    <h1>Formulaire de Pré-inscription - Université de Maroua</h1>
+    <form action="#" method="post">
+        <label for="nom">Nom :</label><br>
+        <input type="text" id="nom" name="nom" required><br><br>
+
+        <label for="prenom">Prénom :</label><br>
+        <input type="text" id="prenom" name="prenom" required><br><br>
+
+        <label for="date_naissance">Date de naissance :</label><br>
+        <input type="date" id="date_naissance" name="date_naissance" required><br><br>
+
+        <label for="lieu_naissance">Lieu de naissance :</label><br>
+        <input type="text" id="lieu_naissance" name="lieu_naissance"><br><br>
+
+        <label for="sexe">Sexe :</label><br>
+        <select id="sexe" name="sexe" required>
+            <option value="">--Choisir--</option>
+            <option value="masculin">Masculin</option>
+            <option value="feminin">Féminin</option>
+        </select><br><br>
+
+        <label for="email">Adresse email :</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="telephone">Numéro de téléphone :</label><br>
+        <input type="tel" id="telephone" name="telephone"><br><br>
+
+        <label for="filiere">Filière demandée :</label><br>
+        <input type="text" id="filiere" name="filiere" required><br><br>
+
+        <input type="submit" value="Soumettre">
+    </form>
+</body>
+</html>
